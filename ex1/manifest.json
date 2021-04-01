@@ -1,16 +1,16 @@
 {
-  "name": "【導入】content_scripts",
+  "name": "watatani",
   "manifest_version": 2,
   "version": "1.0",
   "browser_action": {
-    "default_title": "BaclkgroundColor"
+    "default_title": "insert hello world"
   },
 
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": ["https://room.chuo-u.ac.jp/ct/home"],
       "css": ["content_scripts.css"],
-      "js": ["jquery.min.js", "content_scripts.js"]
+      "js": ["content_scripts.js"]
     }
   ]
 }
